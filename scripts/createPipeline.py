@@ -3,7 +3,7 @@ import joblib
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
-from backend.models.logisticRegressionModel import LogisticRegressionModel  # your custom model
+from sklearn.linear_model import LogisticRegression as LogisticRegressionModel
 
 # Load saved scaler
 scaler = joblib.load("backend/models/shot_scaler.pkl")

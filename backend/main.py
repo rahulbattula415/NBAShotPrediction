@@ -22,6 +22,8 @@ def predict_shot(data: ShotData):
 
     # Predict using pipeline
     pred = pipeline.predict(input_df)
+    prob = pipeline.predict_proba(input_df)
     return {
-        "shot_made": bool(pred[0])
+        "shot_made": bool(pred[0]),
+        "probability": prob[0][1]
     }

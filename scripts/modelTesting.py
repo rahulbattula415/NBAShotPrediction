@@ -3,10 +3,8 @@ import pickle
 from sklearn.metrics import accuracy_score, classification_report
 import numpy as np
 
-with open('models/shot_model.pkl', 'rb') as f:  # Update with your actual file name
+with open('backend/models/shot_model.pkl', 'rb') as f:  # Update with your actual file name
     model = pickle.load(f)
-with open('models/shot_scaler.pkl', 'rb') as f:
-    scaler = pickle.load(f)
 
 y_pred = model.predict(X_test)
 
