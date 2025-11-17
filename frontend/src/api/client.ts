@@ -1,4 +1,6 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? '/api'  // Vercel will route /api/* to your backend
+  : 'http://localhost:8000';
 
 export interface ShotData {
   LOC_X: number;
