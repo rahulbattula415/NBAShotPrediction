@@ -4,15 +4,18 @@ uvicorn[standard]==0.24.0
 pydantic==2.5.0
 pydantic-settings==2.1.0
 
-# Machine Learning
-pandas==2.1.4
-scikit-learn==1.3.2
+# Machine Learning (Python 3.12 compatible versions)
+pandas==2.2.0
+scikit-learn==1.4.0
 joblib==1.3.2
-numpy==1.24.3
+numpy==1.26.3
 
 # HTTP and file handling
 python-multipart==0.0.6
 aiofiles==23.2.1
+
+# Build dependencies
+setuptools==69.0.3
 httpx==0.25.2
 
 # Logging and monitoring
