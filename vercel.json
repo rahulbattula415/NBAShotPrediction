@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "npm ci --legacy-peer-deps && npm run build",
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm ci --legacy-peer-deps",
+  "installCommand": "npm install --legacy-peer-deps",
   "routes": [
     {
       "src": "/(.*)",

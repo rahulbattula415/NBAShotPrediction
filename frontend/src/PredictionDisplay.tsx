@@ -17,8 +17,7 @@ interface PredictionDisplayProps {
 const PredictionDisplay: React.FC<PredictionDisplayProps> = ({
   prediction,
   loading,
-  error,
-  shotLocation
+  error
 }) => {
   if (loading) {
     return (

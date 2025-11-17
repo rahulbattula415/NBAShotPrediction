@@ -25,17 +25,10 @@ const BasketballCourt: React.FC<BasketballCourtProps> = ({
   
   // Three-point line dimensions
   const threePointRadius = 23.75 * scaleY; // 23'9"
-  const threePointCorner = 22 * scaleY;    // 22' in corners
+  // Used in three-point line calculations
   
   // Free throw dimensions
-  const freeThrowLineDistance = 15 * scaleY;
   const freeThrowCircleRadius = 6 * scaleY;
-  
-  // Center court
-  const centerCircleRadius = 6 * scaleY; // 12' diameter = 6' radius
-  
-  // Basket positions (10' from baseline)
-  const basketDistance = 10 * scaleY;
 
   return (
     <div className="basketball-court-container">

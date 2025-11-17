@@ -48,7 +48,7 @@ const StatsPanel = ({ stats, onClose }: StatsPanelProps) => {
         animate={{ x: 0, opacity: 1 }}
         exit={{ x: 100, opacity: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e: React.MouseEvent) => e.stopPropagation()}
       >
         <div className="stats-header">
           <h2 className="stats-title">SESSION STATS</h2>
