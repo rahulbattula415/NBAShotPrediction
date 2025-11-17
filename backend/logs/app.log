@@ -4700,3 +4700,22 @@ TypeError: Object of type ValueError is not JSON serializable
 2025-11-16 21:55:41 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.430 probability
 2025-11-16 21:55:41 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
 2025-11-16 21:55:41 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-17 16:04:22 - nba_shot_predictor.main - INFO - lifespan:56 - Basketball Starting NBA Shot Predictor API...
+2025-11-17 16:04:22 - nba_shot_predictor.main - INFO - lifespan:57 - Environment: Production
+2025-11-17 16:04:22 - nba_shot_predictor.main - INFO - lifespan:58 - Version: 2.0.0
+2025-11-17 16:04:24 - nba_shot_predictor.services.prediction_service - INFO - _get_model:41 - Model loaded successfully
+2025-11-17 16:04:24 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.535, response_time=1.980s
+2025-11-17 16:04:24 - nba_shot_predictor.main - INFO - lifespan:71 - SUCCESS Model warmed up successfully
+2025-11-17 16:04:24 - nba_shot_predictor.main - INFO - lifespan:75 - READY NBA Shot Predictor API is ready!
+2025-11-17 16:04:31 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: OPTIONS /predict Status: 200 Time: 0.001s
+2025-11-17 16:04:31 - uvicorn.access - INFO - send:496 - 127.0.0.1:57978 - "OPTIONS /predict HTTP/1.1" 200
+2025-11-17 16:04:31 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-69.0, 104.0)
+2025-11-17 16:04:31 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.567, response_time=0.015s
+2025-11-17 16:04:31 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.567 probability
+2025-11-17 16:04:31 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.026s
+2025-11-17 16:04:31 - uvicorn.access - INFO - send:496 - 127.0.0.1:57978 - "POST /predict HTTP/1.1" 200
+2025-11-17 16:04:33 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-124.0, 328.0)
+2025-11-17 16:04:33 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.399, response_time=0.011s
+2025-11-17 16:04:33 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.399 probability
+2025-11-17 16:04:33 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-17 16:04:33 - uvicorn.access - INFO - send:496 - 127.0.0.1:57978 - "POST /predict HTTP/1.1" 200
