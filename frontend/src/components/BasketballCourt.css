@@ -1,0 +1,154 @@
+/* BasketballCourt.css */
+.basketball-court-container {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(255, 107, 53, 0.2);
+  overflow: visible;
+  position: relative;
+  background: linear-gradient(145deg, #8B4513 0%, #A0522D 50%, #8B4513 100%);
+  border: 3px solid #654321;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 500 / 470;
+}
+
+/* Responsive court sizing */
+.basketball-court-container svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Enhanced court background with realistic wood texture */
+.basketball-court-container svg {
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(139, 69, 19, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(160, 82, 45, 0.3) 0%, transparent 50%),
+    linear-gradient(
+      45deg,
+      #CD853F 0%,
+      #D2B48C 12.5%,
+      #DEB887 25%,
+      #D2B48C 37.5%,
+      #CD853F 50%,
+      #D2B48C 62.5%,
+      #DEB887 75%,
+      #D2B48C 87.5%,
+      #CD853F 100%
+    );
+  background-size: 30px 30px, 40px 40px, 15px 15px;
+  background-position: 0 0, 20px 20px, 0 0;
+}
+
+/* Add subtle animations for interactive elements */
+.basketball-court-container .basket {
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.basketball-court-container .basket:hover {
+  r: 4;
+  fill: #ff6b35;
+  filter: drop-shadow(0 4px 8px rgba(255, 107, 53, 0.5));
+}
+
+/* Court lines enhancement */
+.basketball-court-container .court-line {
+  stroke: #ffffff;
+  stroke-width: 2;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+/* Add texture overlay */
+.basketball-court-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 1px,
+      rgba(0, 0, 0, 0.05) 1px,
+      rgba(0, 0, 0, 0.05) 2px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 1px,
+      rgba(0, 0, 0, 0.05) 1px,
+      rgba(0, 0, 0, 0.05) 2px
+    );
+  background-size: 20px 20px;
+  pointer-events: none;
+  border-radius: 12px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1024px) {
+  .basketball-court-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .basketball-court-container {
+    margin: 5px auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .basketball-court-container svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .basketball-court-container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .basketball-court-container svg {
+    width: 100%;
+    height: auto;
+    border-width: 2px;
+  }
+}
+
+/* Responsive styles for prediction display */
+@media (max-width: 768px) {
+  .prediction-display {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .placeholder-title {
+    font-size: 1.5rem;
+  }
+  
+  .placeholder-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .prediction-display {
+    padding: 1rem;
+    border-radius: 15px;
+  }
+  
+  .placeholder-title {
+    font-size: 1.3rem;
+  }
+  
+  .placeholder-icon {
+    font-size: 3rem;
+  }
+}

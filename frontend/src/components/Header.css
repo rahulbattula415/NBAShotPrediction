@@ -1,0 +1,206 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: linear-gradient(135deg, rgba(26, 26, 26, 0.95) 0%, rgba(45, 45, 45, 0.95) 100%);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid #ff6b35;
+  box-shadow: 0 2px 20px rgba(255, 107, 53, 0.3);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.basketball-emoji {
+  font-size: 2.5rem;
+  filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.6));
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+.app-title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.title-main {
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ff6b35;
+  text-shadow: 
+    2px 2px 0px #000,
+    4px 4px 0px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
+}
+
+.title-sub {
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f7931e;
+  text-shadow: 
+    1px 1px 0px #000,
+    2px 2px 0px rgba(0,0,0,0.3);
+  letter-spacing: 1px;
+  margin-top: -5px;
+}
+
+.quick-stats {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 107, 53, 0.1);
+  border: 1px solid rgba(255, 107, 53, 0.3);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.stat-item:hover {
+  background: rgba(255, 107, 53, 0.2);
+  border-color: rgba(255, 107, 53, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.2);
+}
+
+.stat-item.streak {
+  background: rgba(247, 147, 30, 0.1);
+  border-color: rgba(247, 147, 30, 0.3);
+}
+
+.stat-item.streak:hover {
+  background: rgba(247, 147, 30, 0.2);
+  border-color: rgba(247, 147, 30, 0.5);
+}
+
+.stat-icon {
+  color: #ff6b35;
+  width: 20px;
+  height: 20px;
+}
+
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 40px;
+}
+
+.stat-value {
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+}
+
+.stat-label {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.7rem;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.stats-toggle-btn {
+  background: linear-gradient(45deg, #ff6b35, #f7931e);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  transition: all 0.3s ease;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+}
+
+.stats-toggle-btn:hover {
+  background: linear-gradient(45deg, #f7931e, #e6820e);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+.header-glow {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff6b35, transparent);
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header-content {
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .quick-stats {
+    gap: 1rem;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .title-main {
+    font-size: 1.5rem;
+  }
+  
+  .title-sub {
+    font-size: 1rem;
+  }
+  
+  .basketball-emoji {
+    font-size: 2rem;
+  }
+}

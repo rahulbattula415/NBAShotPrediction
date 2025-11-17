@@ -1,0 +1,19 @@
+.heatmap-canvas {
+  mix-blend-mode: multiply;
+  filter: saturate(1.08) contrast(1.04);
+  border-radius: 8px;
+  transition: filter 180ms ease;
+}
+
+/* Optional container utility when used outside absolute overlay */
+.heatmap-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.heatmap-canvas:hover {
+  filter: saturate(1.12) contrast(1.06);
+}
+
+
