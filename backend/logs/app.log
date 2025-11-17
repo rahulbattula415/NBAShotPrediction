@@ -4727,3 +4727,7 @@ TypeError: Object of type ValueError is not JSON serializable
 2025-11-17 16:18:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:54470 - "GET /players HTTP/1.1" 200
 2025-11-17 16:18:37 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: GET /players Status: 200 Time: 0.002s
 2025-11-17 16:18:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:63271 - "GET /players HTTP/1.1" 200
+2025-11-17 16:20:37 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: GET /players Status: 200 Time: 0.001s
+2025-11-17 16:20:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:58840 - "GET /players HTTP/1.1" 200
+2025-11-17 16:20:37 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: GET /players Status: 200 Time: 0.002s
+2025-11-17 16:20:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:58840 - "GET /players HTTP/1.1" 200
