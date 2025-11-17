@@ -324,11 +324,24 @@ body {
   border: 2px solid var(--primary-orange);
   border-radius: 20px;
   padding: 2rem;
-  max-width: 500px;
+  max-width: 650px;
   width: 90%;
   max-height: 80vh;
   overflow-y: auto;
   box-shadow: 0 0 30px rgba(255, 107, 53, 0.5);
+}
+
+.stats-panel {
+  background: linear-gradient(135deg, #2d2d2d, #1a1a1a);
+  border: 2px solid var(--primary-orange);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 650px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 0 30px rgba(255, 107, 53, 0.5);
+  position: relative;
 }
 
 .stats-header {
@@ -579,14 +592,16 @@ body {
 }
 
 .prediction-panel {
-  flex: 0 0 300px;
-  min-width: 280px;
-  max-width: 350px;
+  flex: 0 0 320px;
+  min-width: 300px;
+  max-width: 370px;
   background: transparent;
   border-radius: 12px;
   padding: 0;
   display: flex;
   align-items: flex-start;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .prediction-display {

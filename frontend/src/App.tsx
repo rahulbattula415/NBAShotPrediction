@@ -158,6 +158,7 @@ function App() {
           <div className="court-panel">
             <ShotPredictor
               selectedPlayer={selectedPlayer}
+              onPrediction={updateSessionStats}
             />
           </div>
 

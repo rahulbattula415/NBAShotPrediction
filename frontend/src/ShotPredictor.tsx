@@ -9,12 +9,14 @@ interface ShotPredictorProps {
   selectedPlayer: string | null;
   width?: number;
   height?: number;
+  onPrediction?: (shotMade: boolean, player: string, zone: string) => void;
 }
 
 const ShotPredictor: React.FC<ShotPredictorProps> = ({
   selectedPlayer,
   width = 500,
-  height = 470
+  height = 470,
+  onPrediction
 }) => {
   const [prediction, setPrediction] = useState<ShotPrediction | null>(null);
   const [loading, setLoading] = useState(false);
@@ -139,6 +141,11 @@ const ShotPredictor: React.FC<ShotPredictorProps> = ({
 
       const result = await apiClient.predictShot(shotData);
       setPrediction(result);
+      
+      // Update session stats
+      if (onPrediction) {
+        onPrediction(result.shot_made, selectedPlayer, shotZone);
+      }
     } catch (err) {
       setError('Failed to predict shot. Please try again.');
       console.error('Prediction error:', err);

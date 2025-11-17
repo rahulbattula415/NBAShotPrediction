@@ -9,6 +9,8 @@
   max-width: 100%;
   width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .prediction-display:hover {
@@ -317,17 +319,23 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-bottom: 2rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .info-item {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
   padding: 1rem;
   background: rgba(255, 107, 53, 0.1);
   border: 1px solid rgba(255, 107, 53, 0.3);
   border-radius: 12px;
   transition: all 0.3s ease;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 100%;
+  justify-content: flex-start;
 }
 
 .info-item:hover {
@@ -337,9 +345,10 @@
 
 .info-icon {
   color: var(--primary-orange, #ff6b35);
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   flex-shrink: 0;
+  margin-right: 0.1rem;
 }
 
 .info-content {
@@ -347,7 +356,10 @@
   flex-direction: column;
   gap: 0.25rem;
   flex: 1;
-  min-width: 0;
+  min-width: 120px;
+  overflow: hidden;
+  text-align: left;
+  align-items: flex-start;
 }
 
 .info-label {
@@ -364,9 +376,11 @@
   color: var(--light-text, #fff);
   text-shadow: 1px 1px 0px #000;
   font-size: 0.9rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.3;
+  padding: 0.1rem 0;
 }
 
 .league-comparison,
@@ -478,6 +492,19 @@
     max-width: calc(100vw - 2rem);
     margin: 0 auto;
   }
+  
+  .shot-info-grid {
+    gap: 0.5rem;
+  }
+  
+  .info-item {
+    padding: 0.75rem;
+    gap: 0.5rem;
+  }
+  
+  .info-value {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -485,5 +512,39 @@
     max-width: calc(100vw - 1rem);
     padding: 1rem;
     margin: 0 0.5rem;
+  }
+}
+
+/* Specific fixes for narrow containers (prediction panel) */
+@media (min-width: 769px) {
+  .prediction-panel .prediction-display {
+    max-width: 340px;
+    padding: 1.25rem;
+  }
+  
+  .prediction-panel .shot-info-grid {
+    gap: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .prediction-panel .info-item {
+    padding: 0.85rem 0.6rem;
+    gap: 0.4rem;
+    min-height: 50px;
+    justify-content: flex-start;
+  }
+  
+  .prediction-panel .info-value {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+  
+  .prediction-panel .info-content {
+    min-width: 110px;
+  }
+  
+  .prediction-panel .info-label {
+    font-size: 0.75rem;
+    margin-bottom: 0.2rem;
   }
 }

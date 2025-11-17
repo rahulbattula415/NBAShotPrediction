@@ -4208,3 +4208,495 @@ TypeError: Object of type ValueError is not JSON serializable
 2025-11-16 21:38:29 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.593 probability
 2025-11-16 21:38:29 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
 2025-11-16 21:38:29 - uvicorn.access - INFO - send:496 - 127.0.0.1:51955 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:04 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: OPTIONS /predict Status: 200 Time: 0.003s
+2025-11-16 21:42:04 - uvicorn.access - INFO - send:496 - 127.0.0.1:49908 - "OPTIONS /predict HTTP/1.1" 200
+2025-11-16 21:42:04 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-70.0, 229.0)
+2025-11-16 21:42:04 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.487, response_time=0.033s
+2025-11-16 21:42:04 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.487 probability
+2025-11-16 21:42:04 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.041s
+2025-11-16 21:42:04 - uvicorn.access - INFO - send:496 - 127.0.0.1:49908 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:05 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-89.0, 180.0)
+2025-11-16 21:42:05 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.556, response_time=0.013s
+2025-11-16 21:42:05 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.556 probability
+2025-11-16 21:42:05 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.019s
+2025-11-16 21:42:05 - uvicorn.access - INFO - send:496 - 127.0.0.1:49908 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:13 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-111.0, 235.0)
+2025-11-16 21:42:13 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.410, response_time=0.071s
+2025-11-16 21:42:13 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.410 probability
+2025-11-16 21:42:13 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.079s
+2025-11-16 21:42:13 - uvicorn.access - INFO - send:496 - 127.0.0.1:59548 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:14 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-117.0, 258.0)
+2025-11-16 21:42:14 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.355, response_time=0.014s
+2025-11-16 21:42:14 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.355 probability
+2025-11-16 21:42:14 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.018s
+2025-11-16 21:42:14 - uvicorn.access - INFO - send:496 - 127.0.0.1:59548 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:43 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-114.0, 172.0)
+2025-11-16 21:42:43 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.512, response_time=0.010s
+2025-11-16 21:42:43 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.512 probability
+2025-11-16 21:42:43 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.015s
+2025-11-16 21:42:43 - uvicorn.access - INFO - send:496 - 127.0.0.1:58843 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:44 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-96.0, 159.0)
+2025-11-16 21:42:44 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.574, response_time=0.023s
+2025-11-16 21:42:44 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.574 probability
+2025-11-16 21:42:44 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.063s
+2025-11-16 21:42:44 - uvicorn.access - INFO - send:496 - 127.0.0.1:58843 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:45 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (47.0, 95.0)
+2025-11-16 21:42:45 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.639, response_time=0.010s
+2025-11-16 21:42:46 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.639 probability
+2025-11-16 21:42:46 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.020s
+2025-11-16 21:42:46 - uvicorn.access - INFO - send:496 - 127.0.0.1:58843 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:42:50 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-159.0, 287.0)
+2025-11-16 21:42:50 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.440, response_time=0.010s
+2025-11-16 21:42:50 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.440 probability
+2025-11-16 21:42:50 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.015s
+2025-11-16 21:42:50 - uvicorn.access - INFO - send:496 - 127.0.0.1:58843 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:43:04 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-45.0, 62.0)
+2025-11-16 21:43:04 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.629, response_time=0.051s
+2025-11-16 21:43:04 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.629 probability
+2025-11-16 21:43:04 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.085s
+2025-11-16 21:43:04 - uvicorn.access - INFO - send:496 - 127.0.0.1:57319 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:43:05 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-130.0, 131.0)
+2025-11-16 21:43:05 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.509, response_time=0.011s
+2025-11-16 21:43:05 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.509 probability
+2025-11-16 21:43:05 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.024s
+2025-11-16 21:43:05 - uvicorn.access - INFO - send:496 - 127.0.0.1:57319 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:43:06 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-63.0, 182.0)
+2025-11-16 21:43:06 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.600, response_time=0.012s
+2025-11-16 21:43:06 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.600 probability
+2025-11-16 21:43:06 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:43:06 - uvicorn.access - INFO - send:496 - 127.0.0.1:57319 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:43:10 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (62.0, 169.0)
+2025-11-16 21:43:10 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.617, response_time=0.009s
+2025-11-16 21:43:10 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.617 probability
+2025-11-16 21:43:10 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.017s
+2025-11-16 21:43:10 - uvicorn.access - INFO - send:496 - 127.0.0.1:57319 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:43:11 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for Jimmy Butler at (-15.0, 294.0)
+2025-11-16 21:43:11 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for Jimmy Butler: probability=0.365, response_time=0.013s
+2025-11-16 21:43:11 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.365 probability
+2025-11-16 21:43:11 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.017s
+2025-11-16 21:43:11 - uvicorn.access - INFO - send:496 - 127.0.0.1:57319 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:44:49 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: OPTIONS /players Status: 200 Time: 0.001s
+2025-11-16 21:44:49 - uvicorn.access - INFO - send:496 - 127.0.0.1:54946 - "OPTIONS /players HTTP/1.1" 200
+2025-11-16 21:44:49 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: OPTIONS /players Status: 200 Time: 0.000s
+2025-11-16 21:44:49 - uvicorn.access - INFO - send:496 - 127.0.0.1:61529 - "OPTIONS /players HTTP/1.1" 200
+2025-11-16 21:44:49 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: GET /players Status: 200 Time: 0.093s
+2025-11-16 21:44:49 - uvicorn.access - INFO - send:496 - 127.0.0.1:61529 - "GET /players HTTP/1.1" 200
+2025-11-16 21:44:49 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: GET /players Status: 200 Time: 0.001s
+2025-11-16 21:44:49 - uvicorn.access - INFO - send:496 - 127.0.0.1:54946 - "GET /players HTTP/1.1" 200
+2025-11-16 21:44:50 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (23.0, 295.0)
+2025-11-16 21:44:50 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.345, response_time=0.016s
+2025-11-16 21:44:50 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.345 probability
+2025-11-16 21:44:50 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.022s
+2025-11-16 21:44:50 - uvicorn.access - INFO - send:496 - 127.0.0.1:54946 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:44:55 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (87.0, 264.0)
+2025-11-16 21:44:55 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.360, response_time=0.012s
+2025-11-16 21:44:55 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.360 probability
+2025-11-16 21:44:55 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.018s
+2025-11-16 21:44:55 - uvicorn.access - INFO - send:496 - 127.0.0.1:59047 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:44:56 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (69.0, 193.0)
+2025-11-16 21:44:56 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.543, response_time=0.013s
+2025-11-16 21:44:56 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.543 probability
+2025-11-16 21:44:56 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.018s
+2025-11-16 21:44:56 - uvicorn.access - INFO - send:496 - 127.0.0.1:59047 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:44:59 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-75.0, 118.0)
+2025-11-16 21:44:59 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.659, response_time=0.102s
+2025-11-16 21:44:59 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.659 probability
+2025-11-16 21:44:59 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.107s
+2025-11-16 21:44:59 - uvicorn.access - INFO - send:496 - 127.0.0.1:59047 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:45:42 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-59.0, 104.0)
+2025-11-16 21:45:42 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.596, response_time=0.022s
+2025-11-16 21:45:42 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.596 probability
+2025-11-16 21:45:42 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.036s
+2025-11-16 21:45:42 - uvicorn.access - INFO - send:496 - 127.0.0.1:57458 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:45:47 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (48.0, 95.0)
+2025-11-16 21:45:47 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.624, response_time=0.039s
+2025-11-16 21:45:47 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.624 probability
+2025-11-16 21:45:47 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.049s
+2025-11-16 21:45:47 - uvicorn.access - INFO - send:496 - 127.0.0.1:57458 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:45:48 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (79.0, 117.0)
+2025-11-16 21:45:48 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.637, response_time=0.012s
+2025-11-16 21:45:48 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.637 probability
+2025-11-16 21:45:48 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.015s
+2025-11-16 21:45:48 - uvicorn.access - INFO - send:496 - 127.0.0.1:57458 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:45:50 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (114.0, 123.0)
+2025-11-16 21:45:50 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.528, response_time=0.044s
+2025-11-16 21:45:50 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.528 probability
+2025-11-16 21:45:50 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.049s
+2025-11-16 21:45:50 - uvicorn.access - INFO - send:496 - 127.0.0.1:57458 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:45:51 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (108.0, 119.0)
+2025-11-16 21:45:51 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.549, response_time=0.012s
+2025-11-16 21:45:51 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.549 probability
+2025-11-16 21:45:51 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.033s
+2025-11-16 21:45:51 - uvicorn.access - INFO - send:496 - 127.0.0.1:57458 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:45:52 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (63.0, 131.0)
+2025-11-16 21:45:52 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.665, response_time=0.015s
+2025-11-16 21:45:52 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.665 probability
+2025-11-16 21:45:52 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.022s
+2025-11-16 21:45:52 - uvicorn.access - INFO - send:496 - 127.0.0.1:57458 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:45:53 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (95.0, 131.0)
+2025-11-16 21:45:53 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.580, response_time=0.012s
+2025-11-16 21:45:53 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.580 probability
+2025-11-16 21:45:53 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:45:53 - uvicorn.access - INFO - send:496 - 127.0.0.1:57458 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:46:03 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-73.0, 307.0)
+2025-11-16 21:46:03 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.506, response_time=0.012s
+2025-11-16 21:46:03 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.506 probability
+2025-11-16 21:46:03 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.034s
+2025-11-16 21:46:03 - uvicorn.access - INFO - send:496 - 127.0.0.1:52687 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:46:04 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (245.0, 307.0)
+2025-11-16 21:46:04 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.208, response_time=0.012s
+2025-11-16 21:46:04 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.208 probability
+2025-11-16 21:46:04 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:46:04 - uvicorn.access - INFO - send:496 - 127.0.0.1:52687 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:46:30 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (30.0, 343.0)
+2025-11-16 21:46:30 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.435, response_time=0.043s
+2025-11-16 21:46:30 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.435 probability
+2025-11-16 21:46:30 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.049s
+2025-11-16 21:46:30 - uvicorn.access - INFO - send:496 - 127.0.0.1:52518 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:46:31 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-181.0, 251.0)
+2025-11-16 21:46:31 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.445, response_time=0.010s
+2025-11-16 21:46:31 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.445 probability
+2025-11-16 21:46:31 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.014s
+2025-11-16 21:46:31 - uvicorn.access - INFO - send:496 - 127.0.0.1:52518 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:46:32 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-65.0, 226.0)
+2025-11-16 21:46:32 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.487, response_time=0.029s
+2025-11-16 21:46:32 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.487 probability
+2025-11-16 21:46:32 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.032s
+2025-11-16 21:46:32 - uvicorn.access - INFO - send:496 - 127.0.0.1:52518 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:46:33 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-53.0, 172.0)
+2025-11-16 21:46:33 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.623, response_time=0.010s
+2025-11-16 21:46:33 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.623 probability
+2025-11-16 21:46:33 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.053s
+2025-11-16 21:46:33 - uvicorn.access - INFO - send:496 - 127.0.0.1:52518 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:08 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-87.0, 200.0)
+2025-11-16 21:48:08 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.510, response_time=0.010s
+2025-11-16 21:48:08 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.510 probability
+2025-11-16 21:48:08 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.018s
+2025-11-16 21:48:08 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:09 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-61.0, 147.0)
+2025-11-16 21:48:09 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.656, response_time=0.013s
+2025-11-16 21:48:09 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.656 probability
+2025-11-16 21:48:09 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.018s
+2025-11-16 21:48:09 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:10 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-74.0, 108.0)
+2025-11-16 21:48:10 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.551, response_time=0.024s
+2025-11-16 21:48:10 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.551 probability
+2025-11-16 21:48:10 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.061s
+2025-11-16 21:48:10 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:13 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-110.0, 165.0)
+2025-11-16 21:48:13 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.519, response_time=0.048s
+2025-11-16 21:48:13 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.519 probability
+2025-11-16 21:48:13 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.053s
+2025-11-16 21:48:13 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:14 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-185.0, 106.0)
+2025-11-16 21:48:14 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.336, response_time=0.012s
+2025-11-16 21:48:14 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.336 probability
+2025-11-16 21:48:14 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.017s
+2025-11-16 21:48:14 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:15 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-41.0, 133.0)
+2025-11-16 21:48:15 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.603, response_time=0.009s
+2025-11-16 21:48:15 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.603 probability
+2025-11-16 21:48:15 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.044s
+2025-11-16 21:48:15 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:15 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (4.0, 145.0)
+2025-11-16 21:48:15 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.612, response_time=0.024s
+2025-11-16 21:48:15 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.612 probability
+2025-11-16 21:48:15 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.029s
+2025-11-16 21:48:15 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:16 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (77.0, 177.0)
+2025-11-16 21:48:16 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.560, response_time=0.010s
+2025-11-16 21:48:16 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.560 probability
+2025-11-16 21:48:16 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.015s
+2025-11-16 21:48:16 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:17 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 254.0)
+2025-11-16 21:48:17 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.433, response_time=0.044s
+2025-11-16 21:48:17 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.433 probability
+2025-11-16 21:48:17 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.052s
+2025-11-16 21:48:17 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:17 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 279.0)
+2025-11-16 21:48:17 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.372, response_time=0.012s
+2025-11-16 21:48:17 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.372 probability
+2025-11-16 21:48:17 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.022s
+2025-11-16 21:48:17 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:18 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (31.0, 310.0)
+2025-11-16 21:48:18 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.308, response_time=0.016s
+2025-11-16 21:48:18 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.308 probability
+2025-11-16 21:48:18 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.020s
+2025-11-16 21:48:18 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:19 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-70.0, 330.0)
+2025-11-16 21:48:19 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.452, response_time=0.009s
+2025-11-16 21:48:19 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.452 probability
+2025-11-16 21:48:19 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.014s
+2025-11-16 21:48:19 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:20 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-179.0, 366.0)
+2025-11-16 21:48:20 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.254, response_time=0.013s
+2025-11-16 21:48:20 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.254 probability
+2025-11-16 21:48:20 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.019s
+2025-11-16 21:48:20 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:48:20 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-179.0, 366.0)
+2025-11-16 21:48:20 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: 96dffd818cbcdc5de3b9ab0a62eb8c63
+2025-11-16 21:48:20 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.254 probability
+2025-11-16 21:48:20 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.044s
+2025-11-16 21:48:20 - uvicorn.access - INFO - send:496 - 127.0.0.1:56552 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:49:38 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (110.0, 214.0)
+2025-11-16 21:49:38 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.420, response_time=0.013s
+2025-11-16 21:49:38 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.420 probability
+2025-11-16 21:49:38 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.019s
+2025-11-16 21:49:38 - uvicorn.access - INFO - send:496 - 127.0.0.1:64100 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:49:39 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (74.0, 118.0)
+2025-11-16 21:49:39 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.650, response_time=0.044s
+2025-11-16 21:49:39 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.650 probability
+2025-11-16 21:49:39 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.054s
+2025-11-16 21:49:39 - uvicorn.access - INFO - send:496 - 127.0.0.1:64100 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:53:09 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: OPTIONS /predict Status: 200 Time: 0.038s
+2025-11-16 21:53:09 - uvicorn.access - INFO - send:496 - 127.0.0.1:54690 - "OPTIONS /predict HTTP/1.1" 200
+2025-11-16 21:53:09 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (37.0, 97.0)
+2025-11-16 21:53:09 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.655, response_time=0.016s
+2025-11-16 21:53:09 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.655 probability
+2025-11-16 21:53:09 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.023s
+2025-11-16 21:53:09 - uvicorn.access - INFO - send:496 - 127.0.0.1:54690 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:53:10 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-46.0, 107.0)
+2025-11-16 21:53:10 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.629, response_time=0.049s
+2025-11-16 21:53:10 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.629 probability
+2025-11-16 21:53:10 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.054s
+2025-11-16 21:53:10 - uvicorn.access - INFO - send:496 - 127.0.0.1:54690 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:12 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-85.0, 114.0)
+2025-11-16 21:55:12 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.635, response_time=0.009s
+2025-11-16 21:55:12 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.635 probability
+2025-11-16 21:55:12 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.017s
+2025-11-16 21:55:12 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:13 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-26.0, 167.0)
+2025-11-16 21:55:13 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.664, response_time=0.014s
+2025-11-16 21:55:13 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.664 probability
+2025-11-16 21:55:13 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.020s
+2025-11-16 21:55:13 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:14 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-133.0, 285.0)
+2025-11-16 21:55:14 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.478, response_time=0.012s
+2025-11-16 21:55:14 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.478 probability
+2025-11-16 21:55:14 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.024s
+2025-11-16 21:55:14 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:17 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-130.0, 214.0)
+2025-11-16 21:55:17 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.398, response_time=0.017s
+2025-11-16 21:55:17 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.398 probability
+2025-11-16 21:55:17 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.074s
+2025-11-16 21:55:17 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:18 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-176.0, 139.0)
+2025-11-16 21:55:18 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.359, response_time=0.011s
+2025-11-16 21:55:18 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.359 probability
+2025-11-16 21:55:18 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:55:18 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:19 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-182.0, 179.0)
+2025-11-16 21:55:19 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.320, response_time=0.012s
+2025-11-16 21:55:19 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.320 probability
+2025-11-16 21:55:19 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.015s
+2025-11-16 21:55:19 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:19 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-92.0, 254.0)
+2025-11-16 21:55:19 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.388, response_time=0.009s
+2025-11-16 21:55:19 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.388 probability
+2025-11-16 21:55:19 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.046s
+2025-11-16 21:55:19 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:20 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-92.0, 254.0)
+2025-11-16 21:55:20 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ecb02e619c118973cd2dca26f04a7dd5
+2025-11-16 21:55:20 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.388 probability
+2025-11-16 21:55:20 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:20 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:21 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (57.0, 106.0)
+2025-11-16 21:55:21 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.591, response_time=0.028s
+2025-11-16 21:55:21 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.591 probability
+2025-11-16 21:55:21 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.070s
+2025-11-16 21:55:21 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:21 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (84.0, 118.0)
+2025-11-16 21:55:21 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.622, response_time=0.027s
+2025-11-16 21:55:21 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.622 probability
+2025-11-16 21:55:22 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.033s
+2025-11-16 21:55:22 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:22 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (84.0, 138.0)
+2025-11-16 21:55:22 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.604, response_time=0.048s
+2025-11-16 21:55:22 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.604 probability
+2025-11-16 21:55:22 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.055s
+2025-11-16 21:55:22 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:23 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.636, response_time=0.022s
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.027s
+2025-11-16 21:55:23 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:23 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:23 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:23 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:23 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:23 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:24 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:24 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:24 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:24 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:24 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:24 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:24 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:24 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:24 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:24 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:24 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:25 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:25 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:25 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:25 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:25 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:25 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:25 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:25 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:25 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:25 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:25 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:26 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:26 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:26 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:26 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:26 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:26 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:26 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:27 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:27 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:27 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:27 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.005s
+2025-11-16 21:55:27 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:27 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (43.0, 78.0)
+2025-11-16 21:55:27 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: ac479b94ff86c5de708e5653e630303f
+2025-11-16 21:55:27 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.636 probability
+2025-11-16 21:55:27 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:27 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:28 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-142.0, 171.0)
+2025-11-16 21:55:28 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.429, response_time=0.014s
+2025-11-16 21:55:28 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.429 probability
+2025-11-16 21:55:28 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.020s
+2025-11-16 21:55:28 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:29 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-170.0, 183.0)
+2025-11-16 21:55:29 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.346, response_time=0.011s
+2025-11-16 21:55:29 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.346 probability
+2025-11-16 21:55:29 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:55:29 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:30 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-235.0, 81.0)
+2025-11-16 21:55:30 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.205, response_time=0.022s
+2025-11-16 21:55:30 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.205 probability
+2025-11-16 21:55:30 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.026s
+2025-11-16 21:55:30 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:32 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-111.0, 179.0)
+2025-11-16 21:55:32 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.496, response_time=0.010s
+2025-11-16 21:55:32 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.496 probability
+2025-11-16 21:55:32 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:55:32 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:32 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-141.0, 281.0)
+2025-11-16 21:55:32 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.472, response_time=0.015s
+2025-11-16 21:55:32 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.472 probability
+2025-11-16 21:55:32 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.020s
+2025-11-16 21:55:32 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:34 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:34 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.599, response_time=0.012s
+2025-11-16 21:55:34 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:34 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.020s
+2025-11-16 21:55:34 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:35 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:35 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:35 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:35 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:35 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:36 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:36 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:36 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:36 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:36 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:36 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:55:36 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:37 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:37 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:37 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.003s
+2025-11-16 21:55:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (56.0, 97.0)
+2025-11-16 21:55:37 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: cd15da296cc0b8df4a3b0cb0b0f1f1ee
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.599 probability
+2025-11-16 21:55:37 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.005s
+2025-11-16 21:55:37 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:38 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (1.0, 162.0)
+2025-11-16 21:55:38 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.685, response_time=0.011s
+2025-11-16 21:55:38 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.685 probability
+2025-11-16 21:55:38 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.013s
+2025-11-16 21:55:38 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:39 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-17.0, 280.0)
+2025-11-16 21:55:39 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.386, response_time=0.011s
+2025-11-16 21:55:39 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.386 probability
+2025-11-16 21:55:39 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:55:39 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:40 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-70.0, 292.0)
+2025-11-16 21:55:40 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.330, response_time=0.009s
+2025-11-16 21:55:40 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.330 probability
+2025-11-16 21:55:40 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.014s
+2025-11-16 21:55:40 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:40 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-131.0, 309.0)
+2025-11-16 21:55:40 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:235 - Prediction completed for LeBron James: probability=0.430, response_time=0.010s
+2025-11-16 21:55:40 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.430 probability
+2025-11-16 21:55:40 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.016s
+2025-11-16 21:55:40 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
+2025-11-16 21:55:41 - nba_shot_predictor.main - INFO - predict_shot:250 - Prediction request for LeBron James at (-131.0, 309.0)
+2025-11-16 21:55:41 - nba_shot_predictor.services.prediction_service - INFO - predict_shot:181 - Cache hit for prediction: c563fe7065a243d9e8ef27e3bbe16f2f
+2025-11-16 21:55:41 - nba_shot_predictor.main - INFO - predict_shot:261 - Prediction successful: 0.430 probability
+2025-11-16 21:55:41 - nba_shot_predictor.main - INFO - request_middleware:131 - Request completed: POST /predict Status: 200 Time: 0.004s
+2025-11-16 21:55:41 - uvicorn.access - INFO - send:496 - 127.0.0.1:60025 - "POST /predict HTTP/1.1" 200
