@@ -20,12 +20,13 @@ class Settings(BaseSettings):
     api_version: str = "2.0.0"
     debug: bool = False
     
-    # CORS Configuration
+    # CORS Configuration  
+    frontend_url: str = "https://nba-shot-predictor.vercel.app"  # Override with FRONTEND_URL env var
     allowed_origins: List[str] = [
         "http://localhost:3000",
-        "http://localhost:5173",
+        "http://localhost:5173", 
         "http://localhost:8080",
-        "https://nba-shot-predictor.vercel.app"
+        "https://*.vercel.app"
     ]
     allowed_methods: List[str] = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     allowed_headers: List[str] = ["*"]
