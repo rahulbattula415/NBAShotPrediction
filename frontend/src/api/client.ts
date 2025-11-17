@@ -1,5 +1,5 @@
 const API_BASE_URL = import.meta.env.PROD
-  ? '/api'  // Vercel will route /api/* to your backend
+  ? 'http://localhost:8000'  // Will update with backend URL once deployed
   : 'http://localhost:8000';
 
 export interface ShotData {
