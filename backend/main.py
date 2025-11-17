@@ -208,16 +208,23 @@ async def root():
     }
 
 
-@app.get("/health", response_model=HealthCheckResponse, tags=["Health"])
-async def health_check():
+@app.get("/health")
+async def simple_health_check():
+    """Simple health check for Railway."""
+    return {"status": "healthy", "timestamp": time.time()}
+
+@app.get("/health/detailed", response_model=HealthCheckResponse, tags=["Health"])
+async def detailed_health_check():
     """Comprehensive health check endpoint."""
     try:
         # Check model availability
         model_loaded = True
+        model_error = None
         try:
             prediction_service._get_model()
-        except Exception:
+        except Exception as e:
             model_loaded = False
+            model_error = str(e)
         
         uptime = time.time() - app_state["start_time"]
         
@@ -229,13 +236,14 @@ async def health_check():
             uptime_seconds=uptime,
             dependencies={
                 "scikit-learn": "✅ Available",
-                "pandas": "✅ Available",
-                "fastapi": "✅ Available"
+                "pandas": "✅ Available", 
+                "fastapi": "✅ Available",
+                "model_error": model_error if model_error else "None"
             }
         )
     except Exception as e:
         logger.error(f"Health check failed: {e}")
-        raise ServiceUnavailableError("Health check failed")
+        return {"status": "error", "error": str(e), "timestamp": time.time()}
 
 
 @app.post("/predict", response_model=ShotPredictionResponse, tags=["Predictions"])
